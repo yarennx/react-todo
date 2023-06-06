@@ -1,0 +1,59 @@
+.App {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  border-radius: 25px;
+  background-color: #f5efe7;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  color: #333;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+input {
+  height: 20px;
+  padding: 5px 20px;
+}
+button {
+  margin: 10px 0;
+}
+ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+li {
+  padding: 5px 20px;
+  width: 350px;
+  background-color: #c1d0b5;
+  list-style-type: none;
+  text-align: start;
+  border-bottom: 2px solid #1d267d;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 0.7px;
+}
+button {
+  border: none;
+  letter-spacing: 2px;
+  padding: 3px 18px;
+  color: #333;
+  font-size: 16px;
+  background-color: #ffeeb3;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+button:hover {
+  color: #c1d0b5;
+  background-color: #1d267d;
+}
